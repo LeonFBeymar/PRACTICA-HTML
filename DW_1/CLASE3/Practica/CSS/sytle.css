@@ -1,0 +1,50 @@
+h3{
+    color: rgb(0, 0, 0);
+    background:aqua;
+}
+/* Comentarios en css */
+.aereos{
+    color:blue;
+}
+#insectos{
+    background-color: orange;
+}
+
+.parrafo{
+    text-align:center;
+    text-align:left;
+}
+.parrafo2{
+    text-decoration:overline;
+    text-decoration: underline;
+    text-decoration:line-through;
+}
+.descripcion{
+    background-color: red;
+    background-color: #f00;
+    background-color: #FF0000;
+    background-color:rgb(255, 0, 0);
+    background-color:rgba(255, 0, 0, 0);
+}
+
+.parrafo3{
+    background-image: url("../IMG/conejo.jpg");
+    /* background-repeat: round;
+    background-position: left top;
+    background-position: 50% 50%; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 20%;
+    
+}
+
+.texto{
+    font-family: 'fraunces', sans-serif;
+}
+.bx{
+    font-size: 4rem;
+    color: blue;
+
+}
+

@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+
+.entrar:hover{
+    color: rgb(212, 7, 202);
+} 
+
+.uno:hover{
+
+} 
+.dos:visited{
+    color: green;
+}
+.tres:link{
+
+}
+.cuatro:active{
+
+}
+.boton{
+    border-radius: 20%;
+    font-size: 10rem;
+    height: 10rem;
+    width: 12rem;
+    transition: margin-left 2s ease-in;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in-out; */
+}
+.boton:hover{
+    background-color: red;
+    margin-left: 10rem;
+}
+
+.elemento{
+    transform: translate(10rem, 10rem );
+    /* transform: translateY(12rem); */
+    /* transform: translateY(20px ); */
+}
+
+.entrada{
+    margin-left: 10rem;
+    /* solo se puede usar un transform */
+    /* transform: scale(4, 4); */
+    
+    transform: rotate(359deg);
+}
+
+/* .elemento2{
+    transform: scale(1, 10rem);
+} */

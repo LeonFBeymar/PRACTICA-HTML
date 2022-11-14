@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A</title>
+</head>
+<body>
+    <button id="crear"> Crear</button>
+    <button id="mostrar"> Mostrar</button>
+    <button id="modificar"> Modificar</button>
+    <button id="eliminar"> Eliminar</button>
+
+    <button class="btn" onclick="window.location.href='index.html'">menu</button>
+
+
+
+  <script>
+    document.getElementById("crear").addEventListener("click", crear);
+    document.getElementById("mostrar").addEventListener("click", mostrar);
+    document.getElementById("modificar").addEventListener("click", modificar);
+    document.getElementById("eliminar").addEventListener("click", eliminar);
+
+    function crear() {
+      // setItem permite crear o almacenar algun dado
+      localStorage.setItem("usuario", "marko");
+      localStorage.setItem("email", "marko1233@email");
+      
+    }
+    function mostrar() {
+      
+      alert("Usuario:" + localStorage.getItem("usuario")+"    "+ "Email:" + localStorage.getItem("email"));
+
+    }
+    function modificar() {
+      // setItem permite crear o almacenar algun dado
+      localStorage.setItem("usuario", "marko1234");
+      localStorage.setItem("email", "marko1234@email.com");
+
+    }
+    function eliminar() {
+      // setItem permite crear o almacenar algun dado
+      localStorage.removeItem("usuario");
+      localStorage.removeItem("email");
+
+    }
+
+
+  </script>
+</body>
+</html>

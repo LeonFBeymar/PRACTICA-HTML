@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+header{
+    position:sticky;
+    background-color: #fbbc02;
+    height: 8rem;
+}
+.logo img{
+    height: 12%;
+    width: 12%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.link{
+    font-family:sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    transition: font-size 0.6s ;
+}
+.icono{
+    padding-top: 4px;
+}
+.link:hover{
+    font-size: 20px;
+    color: rgb(8, 8, 109);
+    fill: rgb(8, 8, 109);
+}
+
+
+.opcionUno{
+    transform: translate(3rem, 1.7rem);
+}
+.opcionDos{
+    transform: translate(87rem);
+}
+.opcionTres{
+    display:inline-flex;
+    margin-left: 76rem;
+    transform: translateY(-1.82rem)
+}
+.opcionCuatro{
+
+    transform: translate(73rem, -7.5rem);
+}
+
+
+.imgPrincipal{
+    background-size:cover;
+    background-repeat: round;
+}
+

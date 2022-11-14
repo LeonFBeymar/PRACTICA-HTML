@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+<body>
+    <h1>RUTAS / LINKS</h1>
+    <h3>Para que se habra dentro de la pagina</h3>
+    <a href="pagina2.html" target="_self" >siguiente pagina </a>
+
+    <h3>Para que se habra en otra pagina</h3>
+    <a href="https://www3.animeflv.net/" target="_blank" >Para ver animeflv haga click  </a>
+
+    
+    <h2>Imagen</h2>
+    <h3>Externas</h3>
+    <!--Ruta absoluta-->
+    <img src="https://i.giphy.com/media/4QxQgWZHbeYwM/giphy.gif" alt="anime" height="600" width="800">
+    <img src="https://i.giphy.com/media/uKWBNet3fFTP9ZDZIg/giphy.gif" alt="tokio revengers"><!--src = source = fuente/ alt= descripcion de la imagen en caso de que no se muestre-->
+    <!--Ruta relativa-->
+    <h3>Internas</h3>
+    <img src="img/gato-de-anime.jpg" alt="gatito">
+
+    <h2>Audio</h2>
+    <!--src	Ruta al archivo de audio.	Indica la ubicación del audio a reproducir. También se puede usar como etiqueta contenedora, si se agregan varios formatos de archivo en una sola etiqueta <audio> (veremos más adelante este tema).
+        autoplay		Inicia la reproducción de audio automáticamente.
+        loop	true | false	Si el valor es “true”, vuelve a iniciar la reproducción al finalizar.
+        muted	true | false	Si el valor es “true”, silencia el audio que se está reproduciendo.
+        controls	true | false	Si el valor es “true”, muestra los controles de reproducción.-->
+    <audio src="Audio/El mejor tono de Pikachu!.mp3" controls autoplay loop >Pikachu</audio>
+
+    <!--La etiqueta audio como contenedor-->
+    <!--formatos dependendiendo en que navegador se adapte-->
+    <h2>Audio</h2>
+    <h3>Se muestra el formato de audio que coincide con el navegador</h3>
+    <!--No se muestran dos audios sino que muestra el que sea compatible con el navegador-->
+    <audio controls >
+        <source src="Audio/El mejor tono de Pikachu!.ogg">
+        <source src="Audio/El mejor tono de Pikachu!.mp3">
+        <source src="Audio/mejor tono de Pikachu!.aac">
+    </audio>
+
+    <h2>Videos</h2>
+    <video src="Video/Univesal.mp4" height="440" width="650" controls poster="img/mundo.jpg">
+        Lo sentimos. Tu navegador no puede reproducir este video.
+    </video>
+
+    <h3>Video2</h3>
+    
+    <h3>Se muestra el formato de audio que coincide con el navegador</h3>
+    
+    <video height="440" width="650" controls poster="img/mundo.jpg">
+        <source src="Video/Univesal.mp4" type="video/mp4">
+        <source src="Video/Univesal.ogg" type="video/ogg">
+        Lo sentimos. Tu navegador no puede reproducir este video.
+    </video>
+    
+    <h2>Video externo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oHCb_n828IQ" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Mapa de Tokio</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662934.337935401!2d138.64857601522266!3d35.50629023868318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVG9raW8sIEphcMOzbg!5e0!3m2!1ses-419!2sar!4v1650852274997!5m2!1ses-419!2sar" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+</html>

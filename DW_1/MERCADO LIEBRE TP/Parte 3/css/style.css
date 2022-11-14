@@ -1,0 +1,156 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position:sticky;
+    background-color: #fbbc02;
+    height: 8rem;
+}
+.logo img{
+    height: 12%;
+    width: 12%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.link{
+    font-family:sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    transition: font-size 0.6s ;
+}
+.icono{
+    padding-top: 4px;
+}
+.link:hover{
+    font-size: 20px;
+    color: rgb(8, 8, 109);
+    fill: rgb(8, 8, 109);
+}
+
+
+.opcionUno{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.opcionDos{
+    display: inline-flex;
+    margin-left: 87rem;
+    transform: translateY(-1.82rem)
+}
+.opcionTres{
+    display:inline-flex;
+    margin-left: 76rem;
+    transform: translateY(-3.7rem)
+}
+.opcionCuatro{
+    display:inline-flex;
+    margin-left: 72rem;
+    transform: translateY(-9.5rem);
+}
+/* Imagen principal */
+.imgPrincipal {
+    width:100%;
+}
+
+/* Cuerpo */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dentro del contenedor Main */
+.title{
+    text-align: center;
+}
+/* Contenedor uno */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25rem;
+}
+.card{
+    margin: 20px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    height: 22rem;
+}
+.card img{
+    height: 280px;
+    width: 250px;
+}
+.card .abajo{
+    font-size: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: baseline;
+}
+.card .abajo .boton{
+    border-radius: 5px;
+    width: 77px;
+    height: 25px;
+    font-size: 15px;
+    color: white;
+    border: none; 
+    background-color: rgb(0, 132, 255);
+    transition: font-size 2s;
+    transition: background-color 0.7s;
+}
+.card .abajo .boton:hover{
+    font-size: 17px;
+    background-color: green;
+}
+
+.card:hover{
+    padding-top: 20px;
+    background-color: rgb(167, 167, 167);
+}
+
+/* Contenedor dos */
+.containerdos{
+    height: 27rem;
+    width: 74rem;
+    display: flex;
+    justify-content: center;
+}
+.containerdos .cardb{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    width: 42rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerdos .cardbc{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    width: 29rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardb img{
+    height: 360px;
+    width: 330px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

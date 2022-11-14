@@ -1,0 +1,18 @@
+form{
+    height: 300px;
+    background-color: rgb(165, 165, 165);
+    /* display:flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    align-items: center; */
+    
+}
+
+
+label{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-radius: 10%;
+}

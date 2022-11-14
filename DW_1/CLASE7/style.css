@@ -1,0 +1,66 @@
+body{
+    background-image: url("IMG/arbol.jpg");
+    
+    background-repeat: no-repeat;
+
+    background-repeat: round;
+    
+    background-attachment:fixed;
+}
+#cuadrado{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+    0%{background-color: blue; left: 0px; top: 0px;}
+    25%{background-color:aqua; left: 300px; top: 0px;}
+    50%{background-color: rgb(42, 165, 58); left: 300px; top: 300px;}
+    75%{background-color: rgb(255, 251, 0); left: 0px; top:300px;}
+    100%{background-color: rgb(255, 0, 0);left: 0px; top: 0px;}
+
+}
+.boton{
+    height: 3rem;
+    width: 6rem;
+    color: aquamarine;
+}
+.oso:hover{
+    width: 15rem;
+    height: 12rem;
+}
+#boton{
+    background-color: green;
+}
+
+.uno{
+    text-align: center;
+}
+.dos{
+    text-align: end;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+ 
+}
+.tres{
+    text-decoration: aqua;
+}
+.cuatro{
+    text-align: right;
+    
+}
+.bx{
+    font-size: 10rem;
+    color: yellow!important;
+}
+.bx{
+    font-size: 10rem;
+    color: red;
+}

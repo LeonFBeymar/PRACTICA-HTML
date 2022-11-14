@@ -1,0 +1,63 @@
+.contenedor {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}                     
+.padre {
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    background-color: rgb(47, 172, 255);
+    width: 400px;
+    height: 400px;
+}
+
+.hijo {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    transition: transform ease-in 1s;
+}
+
+.hijo:hover{
+    transform: translateX(100%);
+}
+
+/* .hijo {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    transition: margin-left ease-in 1s;
+}
+
+.hijo:hover{
+    margin-left:50%;
+} */
+.hijo {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.hijo:hover {
+    animation: mover 1.5s ease-in forwards;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateY(100%);
+    }
+
+    60% {
+        transform: translateX(100%) translateY(100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}

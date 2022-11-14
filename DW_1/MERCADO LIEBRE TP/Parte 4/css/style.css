@@ -1,0 +1,216 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeza */
+header{
+    position:sticky;
+    background-color: #fbbc02;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navegadoruno{
+    text-align: center;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navegadoruno img{
+    height: 70%;
+    width: 90%;
+}
+
+.navegadordos{
+    text-align: center;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navegadordos .abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+.opcion{
+    margin: 10px;
+    margin-bottom: -10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.2s;
+    
+}
+.link:hover{
+    color: blue;
+    font-size: 19.5px;
+}
+
+
+/* Cuerpo */
+.contenedor{
+    /* height: 27rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dentro del contenedor Main */
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Contenedor uno */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 29rem;
+}
+
+
+
+
+/* Usando boostrap */
+/* Difruta nuestras ofertas */
+.card{
+    height: 25rem;
+    margin: 10px;
+    transition: background-color 0.7s;
+    transition: margin-top 0.2s;
+    font-size: 18px;
+}
+.card:hover{
+    margin-top: -2px;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.card-body .btn{
+    height: min-content;
+    transition: font-size 1s;
+    transition: background-color 0.5s;
+}
+
+.card-body .btn:hover{
+    font-size: 18px;
+    background-color: green;
+}
+
+
+
+/* Productos destacados */
+.containerdos{
+    height: 27rem;
+    width: 74rem;
+    display: flex;
+    justify-content: center;
+}
+.containerdos .productouno .card img{
+    height: 390px;
+    width: 360px;
+}
+.containerdos .productodos .card img{
+    height: 395px;
+    width: 390px;
+}
+
+.containerdos .productouno .card{
+    width: 42rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerdos .productodos .card{
+    width: 29rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centrado{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Modal */
+.modal-content{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 28rem;
+    border-radius: 5%;
+}
+.conteiner{
+    border-radius: 5%;
+}
+.conteiner img{
+    width: 120px;
+    height: 33px;
+}
+
+.conteiner{
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabezaA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabezaA h1{
+    font-size: 30px;
+}
+form div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+form div input.boton{
+    color: white;
+    background-color: rgb(69, 0, 133);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.dato{
+    height: 22px;
+    font-size: 16.5px;
+    border:1px solid rgb(141, 141, 141);
+    border-radius: 5%;
+}

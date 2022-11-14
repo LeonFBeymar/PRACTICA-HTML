@@ -1,0 +1,58 @@
+.padre {
+    background-color:aquamarine;
+    height: 300px;
+    flex-direction: row;
+    display:flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    /* flex-direction: column; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+
+
+
+}
+.btn3 {
+    background-color: #ffd000;
+    color: #fff;
+
+}
+.btn1 {
+    background-color: #17A2B8;
+    color: #fff;
+
+}
+.btn5{
+    background-color: #37b817;
+    color: #fff;
+
+}
+.btn2{
+    background-color: #b81717;
+    color: #fff;
+
+}
+.btn4 {
+    background-color: #b317b8;
+    color: #fff;
+
+}
+.btn6{
+    background-color: #3a17b8;
+    color: #fff;
+
+}
+/* .btn1, .btn2, .btn4, .btn5, .btn6{
+    flex: 1;
+    
+}
+.btn3{
+    flex: 7;
+} */
+
